@@ -1575,7 +1575,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "53bf4ed3-ce2b-4fbe-be76-d74a709fc430")
+			(uuid "66ff25c9-5a0f-4b4f-b82f-087875e2c2b8")
 		)
 		(fp_line
 			(start 7.39 -2.5)
@@ -1595,7 +1595,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "289da55e-8098-479f-b0ca-aac4defc4938")
+			(uuid "b4bd5371-485d-40e9-ac43-30a52e46f0ba")
 		)
 		(fp_line
 			(start -2.3 -2.5)
@@ -1605,7 +1605,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "a1d9b89b-df4b-4f5f-a81c-9a4aa312ed22")
+			(uuid "289da55e-8098-479f-b0ca-aac4defc4938")
 		)
 		(fp_line
 			(start -2.3 1.5)
@@ -1615,7 +1615,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "b4bd5371-485d-40e9-ac43-30a52e46f0ba")
+			(uuid "a1d9b89b-df4b-4f5f-a81c-9a4aa312ed22")
 		)
 		(fp_line
 			(start 7.39 2.5)
@@ -1636,7 +1636,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c6d95fbe-7257-46e6-82e2-d821960876a7")
+			(uuid "c90b5e8c-c933-4f06-8e8f-de7835500f2b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 2.5 0 90)
@@ -1684,15 +1684,15 @@
 			(uuid "bae0711a-0346-4a15-ba69-734bdeef6430")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T93YA_Vertical.step"
+		(model "/home/van/Documents/models/T93YA.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.25 0 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -4623,6 +4623,17 @@
 			(uuid "03b4c865-650d-4772-be87-088645935af9")
 		)
 		(embedded_fonts no)
+		(model "/home/van/Documents/models/CD4017BE.STEP"
+			(offset
+				(xyz -4 9 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
